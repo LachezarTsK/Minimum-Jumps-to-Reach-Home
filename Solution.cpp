@@ -9,7 +9,7 @@ class Solution {
     struct Point {
         int index{};
         bool priorJumpIsBackward{};
-        Point(int index, bool priorJumpIsBackward) : index{index}, priorJumpIsBackward{ priorJumpIsBackward}{}
+        Point(int index, bool priorJumpIsBackward) : index{index}, priorJumpIsBackward{priorJumpIsBackward}{}
     };
 
 public:
